@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Webtalk v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Tue Feb 23 12:54:13 2021
+# Process ID: 21736
+# Current directory: D:/elec3500labs/l5/lab2_4_1/src
+# Command line: wbtcv.exe -mode batch -source D:/elec3500labs/l5/lab2_4_1/lab2_4_1.hw/webtalk/labtool_webtalk.tcl -notrace
+# Log file: D:/elec3500labs/l5/lab2_4_1/src/webtalk.log
+# Journal file: D:/elec3500labs/l5/lab2_4_1/src\webtalk.jou
+#-----------------------------------------------------------
+source D:/elec3500labs/l5/lab2_4_1/lab2_4_1.hw/webtalk/labtool_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Tue Feb 23 12:54:14 2021...
