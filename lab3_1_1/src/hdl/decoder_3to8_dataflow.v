@@ -22,7 +22,7 @@
 
 module decoder_3to8_dataflow(
     input wire [2:0] x,
-    input wire [7:0] y
+    output wire [7:0] y
     );
 
 assign y[7] = &( {  x[2],  x[1],  x[0] } );
