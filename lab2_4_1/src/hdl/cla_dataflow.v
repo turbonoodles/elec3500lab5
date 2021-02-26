@@ -37,7 +37,7 @@ wire carry1, carry2, carry3;
 assign carry1 = g0 | ( p0 && CIN );
 assign carry2 = g1 | ( g0 && p1 ) | ( CIN && p0 && p1 );
 assign carry3 = g2 | ( g1 && p2 ) | ( g0 && p1 && p2 ) | ( CIN && p0 && p1 && p2 );
-assign carry4 = g3 | ( g2 && p3 ) | ( g1 && p2 && p3 ) | ( g0 && p1 && p2 && p3 ) | ( CIN && p0 && p1 && p2 && p3 );
+assign COUT = g3 | ( g2 && p3 ) | ( g1 && p2 && p3 ) | ( g0 && p1 && p2 && p3 ) | ( CIN && p0 && p1 && p2 && p3 );
 
 // instantiate four full adders
 fulladder_dataflow fa0(
