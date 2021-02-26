@@ -32,10 +32,10 @@ assign an = ~0'b1; // disable all but LSD
 // nicer internal representation so the segments are kinda legible
 // bcd number will be abcd
 wire a, b, c, d;
-assign a = x[3];
-assign b = x[2];
-assign c = x[1];
-assign d = x[0];
+assign a = bcd_in[3];
+assign b = bcd_in[2];
+assign c = bcd_in[1];
+assign d = bcd_in[0];
 
 // segment equations
 // inverted sum-of-products because I'm a dummy & didn't notice active-low
