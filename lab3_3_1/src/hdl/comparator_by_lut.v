@@ -28,13 +28,8 @@ module comparator_by_lut(
 
 // somewhere for a lut
 reg [2:0] lut_rom [15:0];
-wire [2:0] rom_dat;
 
-assign rom_dat = lut_rom[ {a,b} ];
-
-assign gt = rom_dat[2];
-assign eq = rom_dat[1];
-assign lt = rom_dat[0];
+assign {lt, eq, gt} = lut_rom[ {a,b} ];
 
 // read rom contents from text file
 initial $readmemb( "lut.txt", lut_rom, 0, 15 );
