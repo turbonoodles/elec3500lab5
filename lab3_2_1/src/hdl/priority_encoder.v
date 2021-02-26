@@ -39,7 +39,7 @@ always @( x, en_in_n ) begin
     else
         casex (x)
             8'b11111111: begin
-                y = 0;
+                y = 3'b111;
                 gs = 1;
                 en_out = 0;
             end
