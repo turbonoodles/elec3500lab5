@@ -10,20 +10,20 @@
 
 ##Pmod Header Switches JD
 
-set_property -dict { PACKAGE_PIN H2    IOSTANDARD LVCMOS33 } [get_ports { B[3] }]; # Sch = SW0
-set_property -dict { PACKAGE_PIN G4    IOSTANDARD LVCMOS33 } [get_ports { B[2] }]; # Sch = SW1
-set_property -dict { PACKAGE_PIN G2    IOSTANDARD LVCMOS33 } [get_ports { B[1] }]; # Sch = SW2
-set_property -dict { PACKAGE_PIN F3    IOSTANDARD LVCMOS33 } [get_ports { B[0] }]; # Sch = SW3
-set_property -dict { PACKAGE_PIN G3    IOSTANDARD LVCMOS33 } [get_ports { A[3] }]; # Sch = SW4
-set_property -dict { PACKAGE_PIN G1    IOSTANDARD LVCMOS33 } [get_ports { A[2] }]; # Sch = SW5
-set_property -dict { PACKAGE_PIN H1    IOSTANDARD LVCMOS33 } [get_ports { A[1] }]; # Sch = SW6
-set_property -dict { PACKAGE_PIN H4    IOSTANDARD LVCMOS33 } [get_ports { A[0] }]; # Sch = SW7
+set_property -dict { PACKAGE_PIN H2    IOSTANDARD LVCMOS33 } [get_ports { B[0]] }]; # Sch = SW0
+set_property -dict { PACKAGE_PIN G4    IOSTANDARD LVCMOS33 } [get_ports { B[1] }]; # Sch = SW1
+set_property -dict { PACKAGE_PIN G2    IOSTANDARD LVCMOS33 } [get_ports { B[2] }]; # Sch = SW2
+set_property -dict { PACKAGE_PIN F3    IOSTANDARD LVCMOS33 } [get_ports { B[3] }]; # Sch = SW3
+#set_property -dict { PACKAGE_PIN G3    IOSTANDARD LVCMOS33 } [get_ports { A[3] }]; # Sch = SW4
+#set_property -dict { PACKAGE_PIN G1    IOSTANDARD LVCMOS33 } [get_ports { A[2] }]; # Sch = SW5
+set_property -dict { PACKAGE_PIN H1    IOSTANDARD LVCMOS33 } [get_ports { A[0] }]; # Sch = SW6
+set_property -dict { PACKAGE_PIN H4    IOSTANDARD LVCMOS33 } [get_ports { A[1] }]; # Sch = SW7
 
 
 ##Pmod Header Switches JC
 
-#set_property -dict { PACKAGE_PIN J3    IOSTANDARD LVCMOS33 } [get_ports { SW[8] }]; # Sch = SW8
-#set_property -dict { PACKAGE_PIN J4    IOSTANDARD LVCMOS33 } [get_ports { SW[9] }]; # Sch = SW9
+set_property -dict { PACKAGE_PIN J3    IOSTANDARD LVCMOS33 } [get_ports { A[2] }]; # Sch = SW8
+set_property -dict { PACKAGE_PIN J4    IOSTANDARD LVCMOS33 } [get_ports { A[3] }]; # Sch = SW9
 #set_property -dict { PACKAGE_PIN E6    IOSTANDARD LVCMOS33 } [get_ports { SW[10] }]; # Sch = SW10
 set_property -dict { PACKAGE_PIN E7    IOSTANDARD LVCMOS33 } [get_ports { CIN }]; # Sch = SW11
 ##Pmod Header Buttons JC
@@ -35,10 +35,10 @@ set_property -dict { PACKAGE_PIN E7    IOSTANDARD LVCMOS33 } [get_ports { CIN }]
 
 ## LEDs
 
-set_property -dict { PACKAGE_PIN H17   IOSTANDARD LVCMOS33 } [get_ports { SUM[3] }]; #IO_L18P_T2_A24_15 Sch=led[0]
-set_property -dict { PACKAGE_PIN K15   IOSTANDARD LVCMOS33 } [get_ports { SUM[2] }]; #IO_L24P_T3_RS1_15 Sch=led[1]
-set_property -dict { PACKAGE_PIN J13   IOSTANDARD LVCMOS33 } [get_ports { SUM[1] }]; #IO_L17N_T2_A25_15 Sch=led[2]
-set_property -dict { PACKAGE_PIN N14   IOSTANDARD LVCMOS33 } [get_ports { SUM[0] }]; #IO_L8P_T1_D11_14 Sch=led[3]
+set_property -dict { PACKAGE_PIN H17   IOSTANDARD LVCMOS33 } [get_ports { SUM[0] }]; #IO_L18P_T2_A24_15 Sch=led[0]
+set_property -dict { PACKAGE_PIN K15   IOSTANDARD LVCMOS33 } [get_ports { SUM[1] }]; #IO_L24P_T3_RS1_15 Sch=led[1]
+set_property -dict { PACKAGE_PIN J13   IOSTANDARD LVCMOS33 } [get_ports { SUM[2] }]; #IO_L17N_T2_A25_15 Sch=led[2]
+set_property -dict { PACKAGE_PIN N14   IOSTANDARD LVCMOS33 } [get_ports { SUM[3] }]; #IO_L8P_T1_D11_14 Sch=led[3]
 #set_property -dict { PACKAGE_PIN R18   IOSTANDARD LVCMOS33 } [get_ports { LED[4] }]; #IO_L7P_T1_D09_14 Sch=led[4]
 #set_property -dict { PACKAGE_PIN V17   IOSTANDARD LVCMOS33 } [get_ports { LED[5] }]; #IO_L18N_T2_A11_D27_14 Sch=led[5]
 #set_property -dict { PACKAGE_PIN U17   IOSTANDARD LVCMOS33 } [get_ports { LED[6] }]; #IO_L17P_T2_A14_D30_14 Sch=led[6]
