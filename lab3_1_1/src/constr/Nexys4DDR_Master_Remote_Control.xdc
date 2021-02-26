@@ -10,9 +10,9 @@
 
 ##Pmod Header Switches JD
 
-set_property -dict { PACKAGE_PIN H2    IOSTANDARD LVCMOS33 } [get_ports { x[2] }]; # Sch = SW0
+set_property -dict { PACKAGE_PIN H2    IOSTANDARD LVCMOS33 } [get_ports { x[0] }]; # Sch = SW0
 set_property -dict { PACKAGE_PIN G4    IOSTANDARD LVCMOS33 } [get_ports { x[1] }]; # Sch = SW1
-set_property -dict { PACKAGE_PIN G2    IOSTANDARD LVCMOS33 } [get_ports { x[0] }]; # Sch = SW2
+set_property -dict { PACKAGE_PIN G2    IOSTANDARD LVCMOS33 } [get_ports { x[2] }]; # Sch = SW2
 #set_property -dict { PACKAGE_PIN F3    IOSTANDARD LVCMOS33 } [get_ports { SW[3] }]; # Sch = SW3
 #set_property -dict { PACKAGE_PIN G3    IOSTANDARD LVCMOS33 } [get_ports { SW[4] }]; # Sch = SW4
 #set_property -dict { PACKAGE_PIN G1    IOSTANDARD LVCMOS33 } [get_ports { SW[5] }]; # Sch = SW5
